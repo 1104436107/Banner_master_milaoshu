@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mschen\.android\build-cache\5a0320e1c3f0a05b6ded54c8d2d371537b956c2d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mschen\.android\build-cache\44f96a0d59cd30b19ffc2ca0e5130290efe365d6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mschen\.android\build-cache\4f388ed820b2eb517334c314a4a88a9282c48ea1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mschen\.android\build-cache\8e3fde48375d2aeef93098f77cddd241a7e5173e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mschen\.android\build-cache\068cebe638bc338a2c7c487624e2f6351c7655c7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mschen\.android\build-cache\439b31ed08149c4de022a2d9effe8383415931d2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mschen\.android\build-cache\d832a7b7a9db31cc53608ad6415e921af415f87c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mschen\.android\build-cache\0493aaa460472c3cac6002d5841f7e6210c4ce42\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\851f2c8664c00f7b8f8f3e7a0ee92e2c552f1742\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\f88241afdd8e4ef05273cf9cac653440dc83b42b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mschen\.android\build-cache\eb3535a360e89244218a64f5ad1f69c62f0c139c\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.portal.banner_milaoshu.MainActivity
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\mschen\.android\build-cache\5a0320e1c3f0a05b6ded54c8d2d371537b956c2d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mschen\.android\build-cache\52d8e9a4f1dcc1092b21d78adc37e93790d5fef5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mschen\.android\build-cache\44f96a0d59cd30b19ffc2ca0e5130290efe365d6\output\AndroidManifest.xml:20:5-44
+MERGED from [Banner_master_milaoshu:convenientbanner:unspecified] C:\Users\mschen\Desktop\github\Banner_master_milaoshu\convenientbanner\build\intermediates\bundles\default\AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mschen\.android\build-cache\4f388ed820b2eb517334c314a4a88a9282c48ea1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mschen\.android\build-cache\8e3fde48375d2aeef93098f77cddd241a7e5173e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mschen\.android\build-cache\068cebe638bc338a2c7c487624e2f6351c7655c7\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mschen\.android\build-cache\439b31ed08149c4de022a2d9effe8383415931d2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mschen\.android\build-cache\d832a7b7a9db31cc53608ad6415e921af415f87c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mschen\.android\build-cache\0493aaa460472c3cac6002d5841f7e6210c4ce42\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\851f2c8664c00f7b8f8f3e7a0ee92e2c552f1742\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\f88241afdd8e4ef05273cf9cac653440dc83b42b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mschen\.android\build-cache\eb3535a360e89244218a64f5ad1f69c62f0c139c\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\mschen\.android\build-cache\52d8e9a4f1dcc1092b21d78adc37e93790d5fef5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\mschen\.android\build-cache\44f96a0d59cd30b19ffc2ca0e5130290efe365d6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\mschen\.android\build-cache\4f388ed820b2eb517334c314a4a88a9282c48ea1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\mschen\.android\build-cache\8e3fde48375d2aeef93098f77cddd241a7e5173e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\mschen\.android\build-cache\068cebe638bc338a2c7c487624e2f6351c7655c7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\mschen\.android\build-cache\439b31ed08149c4de022a2d9effe8383415931d2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\mschen\.android\build-cache\d832a7b7a9db31cc53608ad6415e921af415f87c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\mschen\.android\build-cache\0493aaa460472c3cac6002d5841f7e6210c4ce42\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\851f2c8664c00f7b8f8f3e7a0ee92e2c552f1742\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\mschen\.android\build-cache\f88241afdd8e4ef05273cf9cac653440dc83b42b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\mschen\.android\build-cache\eb3535a360e89244218a64f5ad1f69c62f0c139c\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\mschen\.android\build-cache\d9de77d2f2288f1564634091b266d3d268a9f683\output\AndroidManifest.xml:26:9-47

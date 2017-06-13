@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\mschen\\.android\\build-cache\\4f388ed820b2eb517334c314a4a88a9282c48ea1\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

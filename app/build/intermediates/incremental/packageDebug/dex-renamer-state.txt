@@ -1,0 +1,7 @@
+#Wed Jun 07 15:22:59 CST 2017
+base.0=C\:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0538108f625e5f777f5f29117fa4219fd71b9b25
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f96542d3f2aa969f076b35f598e13472d853adf8\\classes.dex
+base.1=C\:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f96542d3f2aa969f076b35f598e13472d853adf8
+file.0=C\:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0538108f625e5f777f5f29117fa4219fd71b9b25\\classes.dex

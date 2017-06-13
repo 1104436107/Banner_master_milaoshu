@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    build-mode="HOT_WARM"
+    density="xxhdpi"
+    format="10"
+    plugin-version="2.3.2"
+    timestamp="1496821099830"
+    token="597002504479658126"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="310" />
+    <task
+        name="instant-run-dex"
+        duration="16" />
+    <task
+        name="instant-run-transform"
+        duration="42" />
+    <task
+        name="verifier"
+        duration="6" />
+
+    <artifact
+        location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1496819464352"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1496820174211"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1496820220917"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\builds\debug\1496820220917\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1496820252692"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\builds\debug\1496820252692\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1496820434234"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\builds\debug\1496820434234\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1496821000883"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\builds\debug\1496821000883\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1496821099830"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\mschen\Desktop\github\Banner_master_milaoshu\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
