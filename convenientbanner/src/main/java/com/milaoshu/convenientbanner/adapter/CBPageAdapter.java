@@ -12,7 +12,7 @@ import com.milaoshu.convenientbanner.view.CBLoopViewPager;
 import java.util.List;
 
 /**
- * Created by Sai on 15/7/29.
+ * Created by gaofu on 15/7/29.
  */
 public class CBPageAdapter<T> extends PagerAdapter {
     protected List<T> mDatas;

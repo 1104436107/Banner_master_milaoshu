@@ -2,7 +2,7 @@ package com.milaoshu.convenientbanner.holder;
 /**
  * @ClassName :  ViewHolderCreator 
  * @Description : 
- * @Author Sai
+ * @Author gaofu
  * @Date 2014年11月30日 下午3:29:34
  */
 public interface CBViewHolderCreator<Holder> {

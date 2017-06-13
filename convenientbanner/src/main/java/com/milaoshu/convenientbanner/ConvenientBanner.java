@@ -30,7 +30,7 @@ import java.util.List;
  * 页面翻转控件，极方便的广告栏
  * 支持无限循环，自动翻页，翻页特效
  *
- * @author Sai 支持自动翻页
+ * @author gaofu 支持自动翻页
  */
 public class ConvenientBanner<T> extends LinearLayout {
     private List<T> mDatas;

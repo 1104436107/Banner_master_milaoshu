@@ -6,7 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by zhy on 16/5/7.
+ * Created by gaofu on 16/5/7.
  */
 public abstract class BasePageTransformer implements ViewPager.PageTransformer
 {

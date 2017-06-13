@@ -39,56 +39,56 @@ public class MainActivity extends AppCompatActivity {
          convenientBanner5 = (ConvenientBanner)findViewById(R.id.convenientBanner5);
          convenientBanner6 = (ConvenientBanner)findViewById(R.id.convenientBanner6);
          convenientBanner7 = (ConvenientBanner)findViewById(R.id.convenientBanner7);
-        //滚动图
+        //1
         new TakeTurns(this, null, convenientBanner,"RotateDown", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //2
         new TakeTurns(this, null, convenientBanner1,"RotateUp", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //3
         new TakeTurns(this, null, convenientBanner2,"RotateY", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //4
         new TakeTurns(this, null, convenientBanner3,"Standard", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //5
         new TakeTurns(this, null, convenientBanner4,"Alpha", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //6
         new TakeTurns(this, null, convenientBanner5,"ScaleIn", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //7
         new TakeTurns(this, null, convenientBanner6,"RotateDown and Alpha", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){
 
             }
         });
-        //滚动图
+        //8
         new TakeTurns(this, null, convenientBanner7,"RotateDown and Alpha And ScaleIn", new OnItemClickListener() {
             @Override
             public void onItemClick(int position){

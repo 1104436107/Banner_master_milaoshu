@@ -1,4 +1,4 @@
-#Wed Jun 07 15:22:59 CST 2017
+#Tue Jun 13 16:34:31 CST 2017
 base.0=C\:\\Users\\mschen\\Desktop\\github\\Banner_master_milaoshu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0538108f625e5f777f5f29117fa4219fd71b9b25
 renamed.1=classes2.dex
 renamed.0=classes.dex

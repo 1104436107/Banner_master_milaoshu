@@ -29,6 +29,13 @@ public class TakeTurns {
     Integer[] mimagess;
     private List<Integer> headerImages;
 
+    /**
+     * @param mcontext  上下文
+     * @param imagess   图片数组
+     * @param convenientBanner  控件
+     * @param title      banner 样式
+     * @param mOnItemClickListener  item的点击事件
+     */
     public TakeTurns(Context mcontext, Integer[] imagess, ConvenientBanner convenientBanner, String title, OnItemClickListener mOnItemClickListener) {
         if (imagess == null) {
             mimagess = new Integer[3];

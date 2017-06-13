@@ -1,7 +1,7 @@
 package com.milaoshu.convenientbanner.holder;
 
 /**
- * Created by Sai on 15/12/14.
+ * Created by gaofu on 15/12/14.
  * @param <T> 任何你指定的对象
  */
 
