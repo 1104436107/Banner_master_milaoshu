@@ -72,20 +72,7 @@ convenientBanner.OpenBanner(true); banner模式
         //停止翻页
         convenientBanner.stopTurning();
     }
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
+http://img.blog.csdn.net/20170613164614366?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWlsYW9zaHUwMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
 3 标红的间距
 
  <com.milaoshu.convenientbanner.view.CBLoopViewPager
@@ -95,21 +82,16 @@ convenientBanner.OpenBanner(true); banner模式
             android:layout_marginRight="60dp"
             android:layout_marginLeft="60dp"
             android:layout_height="match_parent" />
-1
-2
-3
-4
-5
-6
+http://img.blog.csdn.net/20170613171114224?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWlsYW9zaHUwMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
 7
 android:layout_marginRight="60dp"
 android:layout_marginLeft="60dp"   设置margin就可以。。。
-1
+1http://img.blog.csdn.net/20170613171934259?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWlsYW9zaHUwMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
 2
 convenientBanner.getViewPager().setPageMargin(30);  设置图中白色部分的距离
 1
 这里写图片描述
-
+http://img.blog.csdn.net/20170613172603792?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWlsYW9zaHUwMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
 4 
 依赖库依赖就行，，，
 
