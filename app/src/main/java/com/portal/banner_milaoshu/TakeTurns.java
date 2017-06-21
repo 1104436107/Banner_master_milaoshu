@@ -16,6 +16,7 @@ import com.milaoshu.convenientbanner.transformer.RotateYTransformer;
 import com.milaoshu.convenientbanner.transformer.ScaleInTransformer;
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,42 +26,49 @@ import java.util.List;
  * 1104436107@qq.com
  */
 
-public class TakeTurns {
-    Integer[] mimagess;
-    private List<Integer> headerImages;
-
+public class TakeTurns<T> {
     /**
      * @param mcontext  上下文
-     * @param imagess   图片数组
+     * @param images   图片数组
      * @param convenientBanner  控件
      * @param title      banner 样式
      * @param mOnItemClickListener  item的点击事件
      */
-    public TakeTurns(Context mcontext, Integer[] imagess, ConvenientBanner convenientBanner, String title, OnItemClickListener mOnItemClickListener) {
-        if (imagess == null) {
-            mimagess = new Integer[3];
-            mimagess[0] = R.mipmap.tupian;
-            mimagess[1] = R.mipmap.tupian;
-            mimagess[2] = R.mipmap.tupian;
-        } else {
-            mimagess = imagess;
+    public TakeTurns(Context mcontext,List<Integer> images, ConvenientBanner convenientBanner, String title, OnItemClickListener mOnItemClickListener) {
+        setPageImage((List<T>) images, convenientBanner, title, mOnItemClickListener);
+    }
+    private void setPageImage(List<T> images, ConvenientBanner convenientBanner, String title, OnItemClickListener mOnItemClickListener) {
+        if (images == null) {
+            List<Integer> images2 = new ArrayList<>();
+            images2.add( R.mipmap.tupian);
+            images2.add(R.mipmap.tupian);
+            images2.add(R.mipmap.tupian);
+            setBannerPage((List<T>) images2, convenientBanner, title, mOnItemClickListener);
         }
-        headerImages = Arrays.asList(mimagess);
-//        headerImages = Arrays.asList(images);
+        else
+        setBannerPage(images, convenientBanner, title, mOnItemClickListener);
+    }
+
+    private void setBannerPage(List<T> imagess, ConvenientBanner convenientBanner, String title, OnItemClickListener mOnItemClickListener) {
         convenientBanner.getViewPager().setPageMargin(30);
         convenientBanner.getViewPager().setOffscreenPageLimit(3);
+        convenientBanner.setPointViewVisible(true);
 
         convenientBanner.setPages(new CBViewHolderCreator<NetworkImageHolderView>() {
             @Override
-            public TakeTurns.NetworkImageHolderView createHolder() {
-                return new TakeTurns.NetworkImageHolderView();
+            public NetworkImageHolderView createHolder() {
+                return new NetworkImageHolderView();
             }
-        }, headerImages).setOnItemClickListener(mOnItemClickListener)
+        }, imagess).setOnItemClickListener(mOnItemClickListener)
                 .setPageIndicator(new int[]{
                         R.mipmap.ic_page_indicator,
                         R.mipmap.ic_page_indicator_focused
                 }).setPageIndicatorAlign(ConvenientBanner.PageIndicatorAlign.CENTER_HORIZONTAL);
-        convenientBanner.setPointViewVisible(true);
+
+        setSelectType(convenientBanner, title);
+    }
+
+    private void setSelectType(ConvenientBanner convenientBanner, String title) {
         if ("RotateDown".equals(title)) {
             convenientBanner.getViewPager().setPageTransformer(true, new RotateDownPageTransformer());
         } else if ("RotateUp".equals(title)) {
@@ -87,7 +95,6 @@ public class TakeTurns {
 
     class NetworkImageHolderView implements Holder<Integer> {
         private ImageView imageView;
-
         @Override
         public View createView(Context context) {
             //你可以通过layout文件来创建，也可以像我一样用代码创建，不一定是Image，任何控件都可以进行翻页
@@ -95,7 +102,6 @@ public class TakeTurns {
             imageView.setScaleType(ImageView.ScaleType.FIT_XY);
             return imageView;
         }
-
         @Override
         public void UpdateUI(Context context, int position, Integer data) {
             Glide.with(context).load(data).error(R.mipmap.tupian).placeholder(R.mipmap.tupian).into(imageView);
