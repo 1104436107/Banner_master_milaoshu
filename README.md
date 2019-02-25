@@ -85,4 +85,4 @@ convenientBanner.getViewPager().setPageMargin(30);  设置图中白色部分的�
 ![这里写图片描述](http://img.blog.csdn.net/20170613172603792?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWlsYW9zaHUwMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 github  地址https://github.com/1104436107/Banner_master_milaoshu
- 欢迎下载代码查看 为开源贡献自己的一份力  欢迎 start ，死啦死啦地fork 哈哈哈。。。
+
